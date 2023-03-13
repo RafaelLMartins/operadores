@@ -22,7 +22,7 @@ public class Operadores {
         System.out.println(concatenacao);*/
 
         //classe Operadores.java
-        int numero = 5;
+ /*       int numero = 5;
         System.out.println("Usando Operador unário de valor negativo (-): " + numero);
 
         numero = - numero;
@@ -48,5 +48,13 @@ public class Operadores {
         boolean verdadeiro = true;
 
         System.out.println("Inverteu " + !verdadeiro);
+    }*/
+        //* repetição
+        int numero = 5;
+        numero ++;
+        //numero= numero+1
+        System.out.println(numero);
+        boolean variavel= false;
+        System.out.println(!variavel);
     }
 }
