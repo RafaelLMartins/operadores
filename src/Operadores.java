@@ -72,7 +72,7 @@ public class Operadores {
     */
 
 //MESMA CONDICIONAL, MAS DESSA VEZ, UTILIZANDO O OPERADOR CONDICIONAL TERNÁRIO
-        String resultado = (a == b) ? "verdadeiro" : "false";
+   /*     String resultado = (a == b) ? "verdadeiro" : "false";
 
         System.out.println(resultado);
 
@@ -94,6 +94,22 @@ public class Operadores {
         System.out.println("Numero 1 é diferente de numero 2? "+simNao);
 
         simNao= numero1 > numero2;
-        System.out.println("Numero 1 é maior que numero 2? "+simNao);
+        System.out.println("Numero 1 é maior que numero 2? "+simNao);*/
+
+        boolean condicao1 = true;
+        boolean condicao2 = true;
+
+        if(condicao1 || condicao2){
+            System.out.println("Uma das condições é verdadeira.");
+        } else{System.out.println("Fim.");}
+
+        if(condicao1 && condicao2){
+            System.out.println("As duas condições são verdadeiras.");
+        }else{System.out.println("Fim.");}
+
+        if(condicao1 && (7>4)){
+            System.out.println("As duas condições são verdadeiras.");
+        }else{System.out.println("Fim.");}
+
     }
 }
